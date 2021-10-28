@@ -4,7 +4,7 @@ import pulumi
 import pulumi_digitalocean as digitalocean
 import pulumi_op as operator
 import pulumi_kubernetes as kubernetes
-import nginx
+import nginx, argocd
 
 playground = digitalocean.Project(
     "playground",
@@ -42,8 +42,9 @@ def write_kubeconfig(config, filename):
     kubernetes.Provider("kubernetes-provider", kubeconfig=str(cluster.kube_configs))
 
 
-operator.init()
-nginx.init()
+# operator.init()
+# argocd.init()
+# nginx.init()
 
 
 # Cannot associate a Kubernetes project with a Project, yet.
