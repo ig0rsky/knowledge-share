@@ -19,10 +19,10 @@ cluster = digitalocean.KubernetesCluster(
     version="1.21.5-do.0",
     node_pool=digitalocean.KubernetesClusterNodePoolArgs(
         name="default-pool",
-        size="s-1vcpu-2gb",
+        size="s-2vcpu-2gb",
         auto_scale=True,
         min_nodes=2,
-        max_nodes=5,
+        max_nodes=4,
     ),
 )
 
