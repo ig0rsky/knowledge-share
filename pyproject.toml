@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "knowledge-share"
+version = "0.1.0"
+description = ""
+authors = ["Anil Karatas <anil@protonmail.ch>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pulumi = ">=3.0.0,<4.0."
+pulumi-aws = ">=4.0.0,<5.0."
+pulumi-kubernetes = "^3.8.2"
+pulumi-eks = "^0.34.0"
+pulumi-digitalocean = ">=4.0.0,<5.0.0"
+
+[tool.poetry.dev-dependencies]
+black = "pylama"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
