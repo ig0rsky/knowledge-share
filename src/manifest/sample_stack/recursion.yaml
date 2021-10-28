@@ -14,4 +14,4 @@ spec:
       type: Secret
   projectRepo: https://github.com/ig0rsky/knowledge-share
   repoDir: src/metacluster
-  stack: ig0rsky/playgroundcluster/dev
+  stack: ig0rsky/metacluster/dev
