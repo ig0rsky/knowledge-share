@@ -11,10 +11,10 @@ spec:
   source:
     chart: bitnami/mysql
     repoURL: https://charts.bitnami.com/bitnami
-    targetRevision: 8.8.12
+    targetRevision: 8.0.27
   syncPolicy:
     automated:
       prune: true
       selfHeal: true
     syncOptions:
-      - CreateNamespace=true
+      - CreateNamespace=tru
