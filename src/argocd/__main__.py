@@ -14,7 +14,7 @@ argocd_lr = LimitRange(
             {
                 "type": "Container",
                 "default_request": {"cpu": "100m", "memory": "128Mi"},
-                "default": {"cpu": "500m", "memory": "512Mi"},
+                "default": {"cpu": "1000m", "memory": "1024Mi"},
             }
         ]
     },

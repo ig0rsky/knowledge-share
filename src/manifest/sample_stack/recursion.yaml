@@ -1,0 +1,17 @@
+apiVersion: pulumi.com/v1
+kind: Stack
+metadata:
+  name: my-stack-from-git-repo
+  namespace: default
+spec:
+  branch: refs/heads/master
+  destroyOnFinalize: true
+  envRefs:
+    PULUMI_ACCESS_TOKEN:
+      secret:
+        key: access_token
+        name: accesstoken-zjmh308b
+      type: Secret
+  projectRepo: https://github.com/ig0rsky/knowledge-share
+  repoDir: src/metacluster
+  stack: ig0rsky/playgroundcluster/dev
