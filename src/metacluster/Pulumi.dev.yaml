@@ -1,0 +1,6 @@
+config:
+  digitalocean:token:
+    secure: AAABADTpG4uZ0YPvmoAJhdOEhTLhPx+nLBXcvFuJBngkIRYCXoFxw8vVV8FK1CGMXPfTWBg1xKml5LUZA0fnXqvW7F4FL8lQ3aJMgQo45WNPGtfMRqXev49b9DPvbHCw
+  metacluster:pulumiAccessToken:
+    secure: AAABAFnEtil4Ekdzo/h+7vRVOBjB5GmYxJjl/Srx1ERdeOloGmM2afxuJhbWoGIkSjnXolLqd8c9SangJRGtfK271y13599rW9x4bA==
+  metacluster:nginxStackName: ig0rsky/nginx/dev

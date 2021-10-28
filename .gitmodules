@@ -1,0 +1,9 @@
+[submodule "src/metacluster/reveal.js"]
+	path = src/metacluster/reveal.js
+	url = https://github.com/hakimel/reveal.js.git
+[submodule "src/metacluster/--"]
+	path = src/metacluster/--
+	url = https://github.com/hakimel/reveal.js.git
+[submodule "reveal.js"]
+	path = reveal.js
+	url = https://github.com/hakimel/reveal.js.git
